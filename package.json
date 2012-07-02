@@ -1,0 +1,61 @@
+{
+	"name": "crafity-templates",
+	"description": "Generic template provider",
+	"version": "0.0.1",
+	"author": "Galina Slavova <galina@crafity.com>",
+	"homepage": "https://github.com/Crafity/crafity-templates#readme",
+	"keywords": ["crafity", "template", ""],
+	"maintainers": [
+		{
+			"name": "Bart Riemens",
+			"email": "briemens@crafity.com",
+			"web": "http://crafity.com/about/bart"
+		},
+		{
+			"name": "Galina Slavova",
+			"email": "galina@crafity.com",
+			"web": "http://crafity.com/about/galina"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Bart Riemens",
+			"email": "briemens@crafity.com",
+			"web": "http://crafity.com/about/bart"
+		},
+		{
+			"name": "Galina Slavova",
+			"email": "galina@crafity.com",
+			"web": "http://crafity.com/about/galina"
+		}
+	],
+	"main": "./main.js",
+	"directories": {
+		"test": "test"
+	},
+	"licenses": [
+		{
+			"type": "The MIT License",
+			"url": "https://github.com/Crafity/crafity-templates/blob/master/LICENSE"
+		}
+	],
+	"bugs": {
+		"url": "https://github.com/Crafity/crafity-templates/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Crafity/crafity-templates.git"
+	},
+	"dependencies": {
+		"crafity-jstest": "*",
+		"crafity-filesystem": "*",
+		"jade": "0.26.1"
+	},
+	"engines": {
+		"node": "*"
+	},
+	"scripts": {
+		"prepublish": "npm prune",
+		"test": "./runtests"
+	}
+}
