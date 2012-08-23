@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/Crafity/crafity-templates.png)](http://travis-ci.org/Crafity/crafity-templates)
 #Crafity Template
 
 More information is coming soon...!
