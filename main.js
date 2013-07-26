@@ -1,4 +1,6 @@
-/*globals exports */
+/*jslint node: true, white: true */
+"use strict";
+
 /*!
  * crafity-templates - Generic template provider
  * Copyright(c) 2012 Crafity
