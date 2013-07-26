@@ -8,12 +8,25 @@
  * Copyright(c) 2010-2013 Bart Riemens
  * MIT Licensed
  */
+
 var fs = require('crafity-filesystem')
 	, jade = require('jade')
 	, config = {
 		path: process.cwd(),
 		defaultLanguage: "en"
 	};
+
+/**
+ * Module name.
+ */
+
+module.exports.fullname = "crafity-templates";
+
+/**
+ * Module version.
+ */
+module.exports.version = '0.1.0';
+
 
 exports.init = function(configuration){
 	config = configuration;
@@ -26,6 +39,7 @@ exports.get = function get (language, key, callback) {
 		key = language;
 		language = config.defaultLanguage;
 	}
+	
 	if (language && !key) {
 		key = language;
 		language = config.defaultLanguage;
@@ -41,6 +55,7 @@ exports.get = function get (language, key, callback) {
 		var fileContent = fileBuffer.toString()
 			, jadeRenderer = jade.compile(fileContent)
 			, template = {};
+		
 		
 		template.merge = function merge(data) {
 			return jadeRenderer(data);
