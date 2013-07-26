@@ -47,8 +47,8 @@
 		"url": "https://github.com/Crafity/crafity-templates"
 	},
 	"dependencies": {
-		"crafity-jstest": "*",
-		"crafity-filesystem": "*",
+		"crafity-jstest": "~0.1.0",
+		"crafity-filesystem": "~0.1.0",
 		"jade": "0.26.1"
 	},
 	"engines": {
