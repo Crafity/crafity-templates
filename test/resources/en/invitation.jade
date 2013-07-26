@@ -1,0 +1,17 @@
+- console.log("INSIDE INVITATION JADE locals == ", locals);
+
+h3 Hi !{locals.name},
+p !{locals.nameSender} left a new invitation for you.
+br
+p 
+	b Subject: 
+	!{locals.subjectSender}
+p(style='white-space:pre') !{locals.textSender}
+br
+p Click 
+	a(href=locals.linkToMessage) here 
+	| to see your new invitation.
+br
+p We hope to hear from you soon!
+br
+h4 The Crafity Team
