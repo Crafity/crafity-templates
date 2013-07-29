@@ -27,17 +27,17 @@ jstest.run({
   'The module must have main.js file': function () {
 
     var main = require('../main');
-    assert.isDefined(main, "Expected main to be defined");
+    assert.isDefined(main, "Expected main to be defined.");
   },
 
   'The module must have a fullname': function () {
     var main = require('../main');
-    assert.isDefined(main.fullname, "Expected fullname to be defined");
+    assert.isDefined(main.fullname, "Expected fullname to be defined.");
   },
 
   'The module must have a version number': function () {
     var main = require('../main');
-    assert.isDefined(main.version, "Expected version number to be defined");
+    assert.isDefined(main.version, "Expected version number to be defined.");
   },
 
   'The module must have package.json file': function (context) {
@@ -62,8 +62,8 @@ jstest.run({
       , main = require('../main')
       ;
 
-    assert.isDefined(json.version, "Expected fs to be defined");
-    assert.areEqual(main.version, json.version, "Expected the same module version!");
+    assert.isDefined(json.version, "Expected fs to be defined.");
+    assert.areEqual(main.version, json.version, "Expected the same module version.");
   }
 
 });
