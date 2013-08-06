@@ -1,6 +1,6 @@
 # Crafity Templates [![Dependency status](https://david-dm.org/crafity/crafity-templates.png)](https://david-dm.org/crafity/crafity-templates) [![Travis Build Status](https://travis-ci.org/Crafity/crafity-templates.png?branch=master)](https://travis-ci.org/Crafity/crafity-templates) [![NPM Module version](https://badge.fury.io/js/crafity-templates.png)](http://badge.fury.io/js/crafity-templates)
 
-## SUPPORTED TEMPLATES
+## Supported templates
 
 Whenever you want to communicate a well formatted message to the user of your application you will be thinking of 
 generating such a message on the fly. Imagine you have a couple of different situations in which generating messages is 
@@ -14,7 +14,7 @@ This module supports generating messages that are templated with the following H
 * Haml
 
 
-## PREPARATION
+## Preparation
 
 Install crafity-templates module via NPM installer or by cloning this repository from GitHub:
 
