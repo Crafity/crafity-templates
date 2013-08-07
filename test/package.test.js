@@ -67,3 +67,5 @@ jstest.run({
   }
 
 });
+
+module.exports = jstest;
