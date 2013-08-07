@@ -161,7 +161,7 @@ jstest.run({
 		try {
 
 			templatesModule.get("bg", "letter", function (err, template) {
-				console.log(""); // jslint doesn't accept an empty block
+				return; // jslint doesn't accept an empty block
 			});
 
 		} catch (err) {
