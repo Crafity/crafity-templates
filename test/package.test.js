@@ -19,7 +19,7 @@ var jstest = require('crafity-jstest').createContext("Module Package Test")
   ;
 
 /**
- * Run the tests
+ * Run the tests.
  */
 
 jstest.run({
