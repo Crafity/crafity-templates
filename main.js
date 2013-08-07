@@ -31,7 +31,7 @@ module.exports.fullname = "crafity-templates";
 /**
  * Module version.
  */
-module.exports.version = '0.1.1';
+module.exports.version = '0.1.2';
 
 /**
  * Set a custom configuration by specifying:
